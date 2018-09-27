@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enemies>
+  <enemy name ="Knight">
+    <lifePoints>200</lifePoints>
+    <attackDamage>20</attackDamage>
+    <defense>50</defense>
+    <attackSpeed>3</attackSpeed>
+    <weapons>
+      <weapon identifier = "Sword">
+        <type>Melee</type>
+        <range>2</range>
+      </weapon>
+      <weapon identifier = "Shield">
+        <type>Melee</type>
+        <range>1</range>
+      </weapon>
+    </weapons>
+  </enemy>
+  <enemy name ="Mage">
+    <lifePoints>80</lifePoints>
+    <attackDamage>60</attackDamage>
+    <defense>30</defense>
+    <attackSpeed>4</attackSpeed>
+    <weapons>
+      <weapon identifier = "Staff">
+        <type>Melee</type>
+        <range>3</range>
+      </weapon>
+      <weapon identifier ="Dagger">
+        <type>Melee</type>
+        <range>1</range>
+      </weapon>
+    </weapons>
+  </enemy>
+  <enemy name ="Elf">
+    <lifePoints>120</lifePoints>
+    <attackDamage>40</attackDamage>
+    <defense>30</defense>
+    <attackSpeed>5</attackSpeed>
+    <weapons>
+      <weapon identifier = "Bow">
+        <type>Ranged</type>
+        <range>7</range>
+      </weapon>
+      <weapon identifier = "Dagger">
+        <type>Melee</type>
+        <range>1</range>
+      </weapon>
+    </weapons>
+  </enemy>
+  <enemy name ="Dwarf">
+    <lifePoints>200</lifePoints>
+    <attackDamage>20</attackDamage>
+    <defense>60</defense>
+    <attackSpeed>2</attackSpeed>
+    <weapons>
+      <weapon identifier = "Axe">
+        <type>Melee</type>
+        <range>2</range>
+      </weapon>
+    </weapons>
+  </enemy>
+</enemies>
